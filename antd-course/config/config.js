@@ -4,6 +4,12 @@ export default {
     antd: {},
     routes:[{
         path: '/',
-        component: './HelloWorld',
+        component: '../layout',
+        // routes: [
+        //     {
+        //         path: '/',
+        //         component: './HelloWorld',
+        //     }
+        // ]
     }],
 };
